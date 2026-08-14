@@ -1,0 +1,15 @@
+.app {
+  max-width: 600px;
+  margin: 48px auto;
+  padding: 0 16px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 32px;
+  color: #1a1a1a;
+  letter-spacing: -0.5px;
+}

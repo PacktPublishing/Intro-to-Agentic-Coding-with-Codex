@@ -1,0 +1,5 @@
+# Sandbox mode — allow changes only inside the current workspace
+sandbox_mode = "workspace-write"
+
+# Approval policy — ask before running untrusted commands
+approval_policy = "on-request"

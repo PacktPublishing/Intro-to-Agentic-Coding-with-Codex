@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add Article"
+  short_description: "Research and add course articles"
+  default_prompt: "Use $add-article to research a topic and add a 200-250 word article to src/data/articles.js."

@@ -1,0 +1,65 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  transition: background 0.1s;
+}
+
+.item:hover {
+  background: #f9fafb;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  cursor: pointer;
+  accent-color: #6366f1;
+}
+
+.text {
+  flex: 1;
+  font-size: 0.95rem;
+  color: #1a1a1a;
+  word-break: break-word;
+}
+
+.completed .text {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+.editInput {
+  flex: 1;
+  min-width: 0;
+  padding: 6px 8px;
+  font-size: 0.95rem;
+  color: #1a1a1a;
+  background: #fff;
+  border: 2px solid #6366f1;
+  border-radius: 6px;
+  outline: none;
+}
+
+.deleteButton {
+  flex-shrink: 0;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #9ca3af;
+  line-height: 1;
+  transition: all 0.15s;
+}
+
+.deleteButton:hover {
+  background: #fee2e2;
+  border-color: #fca5a5;
+  color: #ef4444;
+}

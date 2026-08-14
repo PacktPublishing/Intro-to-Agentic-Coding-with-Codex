@@ -1,0 +1,35 @@
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.filterButton {
+  padding: 6px 14px;
+  font-size: 0.875rem;
+  border: 2px solid #d1d5db;
+  border-radius: 20px;
+  background: #fff;
+  color: #374151;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.filterButton:hover {
+  border-color: #6366f1;
+  color: #6366f1;
+}
+
+.filterButton.active {
+  background: #6366f1;
+  border-color: #6366f1;
+  color: #fff;
+}
+
+.count {
+  margin-left: auto;
+  font-size: 0.875rem;
+  color: #9ca3af;
+}

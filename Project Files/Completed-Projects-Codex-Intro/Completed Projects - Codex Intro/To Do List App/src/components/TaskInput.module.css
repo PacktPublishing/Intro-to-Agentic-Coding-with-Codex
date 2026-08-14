@@ -1,0 +1,52 @@
+.wrapper {
+  margin-bottom: 16px;
+}
+
+.inputRow {
+  display: flex;
+  gap: 8px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: 2px solid #d1d5db;
+  border-radius: 6px;
+  outline: none;
+  background: #fff;
+  transition: border-color 0.15s;
+}
+
+.input:focus {
+  border-color: #6366f1;
+}
+
+.button {
+  padding: 10px 18px;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+
+.button:hover {
+  background: #4f46e5;
+}
+
+.counter {
+  margin: 4px 0 0;
+  font-size: 0.8rem;
+  color: #6b7280;
+  text-align: right;
+}
+
+.atLimit {
+  color: #ef4444;
+  font-weight: 600;
+}
