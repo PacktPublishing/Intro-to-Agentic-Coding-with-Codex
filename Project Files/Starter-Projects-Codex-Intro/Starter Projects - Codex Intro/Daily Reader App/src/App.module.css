@@ -1,0 +1,19 @@
+.app {
+  min-height: 100vh;
+}
+
+.siteHeader {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0 1.5rem;
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+
+.siteName {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #2563eb;
+  letter-spacing: -0.02em;
+}
